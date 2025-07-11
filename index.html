@@ -68,6 +68,8 @@
     }
     .link-button:hover {
       background: var(--button-hover);
+	  transform: scale(1.03); /* subtle zoom */
+      transition: background 0.3s, transform 0.3s;
     }
     .hidden {
       display: none;
@@ -119,5 +121,13 @@
       <i class="fab fa-deviantart"></i> DeviantArt
     </a>
   </div>
+  
+   <!-- Disclaimer pointing to other repo -->
+   <footer style="font-size: 0.85rem; color: #aaa; text-align: center; padding: 1em 0; margin-top: 3em; border-top: 1px solid #333;">
+    Mirror: 
+    <a href="https://sevsanctum.github.io" style="color: #ccc; text-decoration: underline;">GitHub</a> /
+    <a href="https://sevsanctum.gitlab.io" style="color: #ccc; text-decoration: underline;">GitLab</a>
+   </footer>
+
 </body>
 </html>
